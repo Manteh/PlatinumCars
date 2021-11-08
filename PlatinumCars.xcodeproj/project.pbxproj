@@ -3,23 +3,38 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF316E35262B9D2100891DB6 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF316E34262B9D2100891DB6 /* SearchBar.swift */; };
+		FF316E38262BA20B00891DB6 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF316E37262BA20B00891DB6 /* TabBar.swift */; };
+		FF316E3C262CADD600891DB6 /* Introspect in Frameworks */ = {isa = PBXBuildFile; productRef = FF316E3B262CADD600891DB6 /* Introspect */; };
 		FF6E33C326226EDC00E4A021 /* PlatinumCarsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6E33C226226EDC00E4A021 /* PlatinumCarsApp.swift */; };
 		FF6E33C526226EDC00E4A021 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6E33C426226EDC00E4A021 /* ContentView.swift */; };
 		FF6E33C726226EDF00E4A021 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF6E33C626226EDF00E4A021 /* Assets.xcassets */; };
 		FF6E33CA26226EDF00E4A021 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF6E33C926226EDF00E4A021 /* Preview Assets.xcassets */; };
+		FF6E33D326238CBF00E4A021 /* CarCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6E33D226238CBF00E4A021 /* CarCategory.swift */; };
+		FF77EEA9263F53CD00F699FD /* CarCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF77EEA8263F53CD00F699FD /* CarCardView.swift */; };
+		FF77EEAD263F5BD000F699FD /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF77EEAC263F5BD000F699FD /* Car.swift */; };
+		FF7BC628265FB6930021326C /* BrandsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7BC627265FB6930021326C /* BrandsCardView.swift */; };
+		FF90ED8F2735DFAA00304A55 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF90ED8E2735DFAA00304A55 /* AboutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FF316E34262B9D2100891DB6 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		FF316E37262BA20B00891DB6 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		FF6E33BF26226EDC00E4A021 /* PlatinumCars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlatinumCars.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF6E33C226226EDC00E4A021 /* PlatinumCarsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatinumCarsApp.swift; sourceTree = "<group>"; };
 		FF6E33C426226EDC00E4A021 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FF6E33C626226EDF00E4A021 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF6E33C926226EDF00E4A021 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FF6E33CB26226EDF00E4A021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF6E33D226238CBF00E4A021 /* CarCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCategory.swift; sourceTree = "<group>"; };
+		FF77EEA8263F53CD00F699FD /* CarCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCardView.swift; sourceTree = "<group>"; };
+		FF77EEAC263F5BD000F699FD /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		FF7BC627265FB6930021326C /* BrandsCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandsCardView.swift; sourceTree = "<group>"; };
+		FF90ED8E2735DFAA00304A55 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +42,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF316E3C262CADD600891DB6 /* Introspect in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FF316E3A262CADD600891DB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FF6E33B626226EDC00E4A021 = {
 			isa = PBXGroup;
 			children = (
 				FF6E33C126226EDC00E4A021 /* PlatinumCars */,
 				FF6E33C026226EDC00E4A021 /* Products */,
+				FF316E3A262CADD600891DB6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,10 +77,17 @@
 			isa = PBXGroup;
 			children = (
 				FF6E33C226226EDC00E4A021 /* PlatinumCarsApp.swift */,
+				FF7BC627265FB6930021326C /* BrandsCardView.swift */,
+				FF77EEA8263F53CD00F699FD /* CarCardView.swift */,
 				FF6E33C426226EDC00E4A021 /* ContentView.swift */,
+				FF77EEAC263F5BD000F699FD /* Car.swift */,
+				FF316E37262BA20B00891DB6 /* TabBar.swift */,
+				FF316E34262B9D2100891DB6 /* SearchBar.swift */,
+				FF6E33D226238CBF00E4A021 /* CarCategory.swift */,
 				FF6E33C626226EDF00E4A021 /* Assets.xcassets */,
 				FF6E33CB26226EDF00E4A021 /* Info.plist */,
 				FF6E33C826226EDF00E4A021 /* Preview Content */,
+				FF90ED8E2735DFAA00304A55 /* AboutView.swift */,
 			);
 			path = PlatinumCars;
 			sourceTree = "<group>";
@@ -85,6 +116,9 @@
 			dependencies = (
 			);
 			name = PlatinumCars;
+			packageProductDependencies = (
+				FF316E3B262CADD600891DB6 /* Introspect */,
+			);
 			productName = PlatinumCars;
 			productReference = FF6E33BF26226EDC00E4A021 /* PlatinumCars.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +146,9 @@
 				Base,
 			);
 			mainGroup = FF6E33B626226EDC00E4A021;
+			packageReferences = (
+				FF316E30262B505500891DB6 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */,
+			);
 			productRefGroup = FF6E33C026226EDC00E4A021 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,7 +176,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF6E33C526226EDC00E4A021 /* ContentView.swift in Sources */,
+				FF316E35262B9D2100891DB6 /* SearchBar.swift in Sources */,
+				FF6E33D326238CBF00E4A021 /* CarCategory.swift in Sources */,
 				FF6E33C326226EDC00E4A021 /* PlatinumCarsApp.swift in Sources */,
+				FF90ED8F2735DFAA00304A55 /* AboutView.swift in Sources */,
+				FF316E38262BA20B00891DB6 /* TabBar.swift in Sources */,
+				FF77EEAD263F5BD000F699FD /* Car.swift in Sources */,
+				FF7BC628265FB6930021326C /* BrandsCardView.swift in Sources */,
+				FF77EEA9263F53CD00F699FD /* CarCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +372,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FF316E30262B505500891DB6 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/siteline/SwiftUI-Introspect.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FF316E3B262CADD600891DB6 /* Introspect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF316E30262B505500891DB6 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */;
+			productName = Introspect;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FF6E33B726226EDC00E4A021 /* Project object */;
 }
